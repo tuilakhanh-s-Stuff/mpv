@@ -131,7 +131,7 @@ meson.override_dependency('libjxl', libjxl_dep)
 $projects = @(
     @{
         Path = "$subprojects/ffmpeg.wrap"
-        URL = "https://gitlab.freedesktop.org/gstreamer/meson-ports/ffmpeg.git"
+        URL = "https://github.com/tuilakhanh-s-Stuff/ffmpeg.git"
         Revision = "meson-7.1"
         Provides = @(
             "libavcodec = libavcodec_dep",
